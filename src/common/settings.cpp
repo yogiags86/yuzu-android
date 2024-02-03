@@ -258,7 +258,7 @@ const char* TranslateCategory(Category category) {
 void TranslateResolutionInfo(ResolutionSetup setup, ResolutionScalingInfo& info) {
     info.downscale = false;
     switch (setup) {
-    case ResolutionSetup::Res1_4X:
+    case ResolutionSetup::Res1_3X:
         info.up_scale = 1;
         info.down_shift = 2;
         info.downscale = true;
