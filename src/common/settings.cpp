@@ -260,12 +260,12 @@ void TranslateResolutionInfo(ResolutionSetup setup, ResolutionScalingInfo& info)
     switch (setup) {
     case ResolutionSetup::Res1_2X:
         info.up_scale = 1;
-        info.down_shift = 1;
+        info.down_shift = 2;
         info.downscale = true;
         break;
     case ResolutionSetup::Res3_4X:
-        info.up_scale = 3;
-        info.down_shift = 2;
+        info.up_scale = 1;
+        info.down_shift = 1;
         info.downscale = true;
         break;
     case ResolutionSetup::Res1X:
